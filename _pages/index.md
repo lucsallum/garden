@@ -7,13 +7,14 @@ permalink: /
 
 # Hey ✌️
 
-This is my digital garden.
+Este é o meu jardim digital, uma maneira calma e ponderada de existir na web. 
+Talvez dure muito tempo, talvez não.
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[My first note]]</span> to start explore.
+  Dê uma olhada na <span style="font-weight: bold">[[Minha primeira nota]]</span> para começar a explorar.
 </p>
 
-<strong>Recently updated</strong>
+<strong>Últimas atualizações</strong>
 
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
